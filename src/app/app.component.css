@@ -15,10 +15,15 @@ input {
   padding: 0.5rem 0.5rem;
   border-radius: 5px;
   border: 1px solid rgba(0, 0, 0, 0.25);
+  outline: none;
 }
 
 input.ng-invalid.ng-touched {
   border: 1px solid rgba(255, 0, 0, 0.75);
+}
+
+input.ng-valid.ng-touched {
+  border: 2px solid rgba(49, 201, 49, 0.5);
 }
 
 .form-data {
