@@ -1,0 +1,31 @@
+.form {
+  margin: 1rem auto;
+  max-width: 50%;
+  /* min-width: 500px; */
+  text-align: center;
+  background-color: beige;
+}
+.header {
+  padding: 1rem 0;
+}
+.form-group {
+  padding: 0.5rem 2rem;
+}
+input {
+  padding: 0.5rem 0.5rem;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid rgba(255, 0, 0, 0.75);
+}
+
+.form-data {
+  margin: 1rem auto;
+  max-width: 50%;
+  /* min-width: 500px; */
+  /* text-align: center; */
+  background-color: beige;
+  padding: 2rem 1rem;
+}
